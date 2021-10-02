@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mobile.css">
   <title>MoGo</title>
@@ -284,12 +283,12 @@
   
     <div class="quotes">
       <div class="container">
-        <div id="slider-btn--prev" class="slider__btn prev">
+        <div class="slider__btn prev">
             <i class="fa fa-angle-left" aria-hidden="true"></i>
         </div>
         <div class="quotes__inner slider-container">
           <!-- TODO: add carousel -->
-          <div data-slider="1" class="slider-track">
+          <div class="slider-track">
             <div class="quotes__item">
               <img src="./images/avatar.png" alt="" class="quotes__item-img">
               <div class="quotes__item-text">
@@ -305,21 +304,22 @@
                 <p class="quotes__item-quote">
                 "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quis, pariatur iusto commodi beatae suscipit voluptatum laboriosam unde vitae voluptates nam aliquid aut animi voluptatibus libero et blanditiis."
                 </p>
-                <span class="quotes__item-author">Jacob Doe</span>
+                <span class="quotes__item-author">Jon Doe</span>
               </div>
             </div>
+    
             <div class="quotes__item">
               <img src="./images/avatar.png" alt="" class="quotes__item-img">
               <div class="quotes__item-text">
                 <p class="quotes__item-quote">
                 "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quis, pariatur iusto commodi beatae suscipit voluptatum laboriosam unde vitae voluptates nam aliquid aut animi voluptatibus libero et blanditiis."
                 </p>
-                <span class="quotes__item-author">Joseph Doe</span>
+                <span class="quotes__item-author">Jon Doe</span>
               </div>
             </div>
           </div>
         </div>
-        <div id="slider-btn--next" class="slider__btn next">
+        <div class="slider__btn next">
             <i class="fa fa-angle-right" aria-hidden="true"></i>
         </div>
       </div>
@@ -507,19 +507,19 @@
   
     <div class="qoutes--white quotes">
       <div class="container">
-        <div id="slider-btn--prev-2" class="slider__btn prev">
+        <div id="btn-prev" class="slider__btn prev">
             <i class="fa fa-angle-left" aria-hidden="true"></i>
         </div>
         <div class="quotes__inner slider-container">
           <!-- TODO: add carousel -->
-          <div data-slider="2" class="slider-track">
+          <div id="slider-track" class="slider-track">
             <div class="quotes__item">
               <img src="./images/avatar.png" alt="" class="quotes__item-img">
               <div class="quotes__item-text">
                 <p class="quotes__item-quote">
                 "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quis, pariatur iusto commodi beatae suscipit voluptatum laboriosam unde vitae voluptates nam aliquid aut animi voluptatibus libero et blanditiis."
                 </p>
-                <span class="quotes__item-author">Jon Doe</span>
+                <span class="quotes__item-author">Joshua Earle</span>
               </div>
             </div>
             <div class="quotes__item">
@@ -528,21 +528,23 @@
                 <p class="quotes__item-quote">
                 "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quis, pariatur iusto commodi beatae suscipit voluptatum laboriosam unde vitae voluptates nam aliquid aut animi voluptatibus libero et blanditiis."
                 </p>
-                <span class="quotes__item-author">Jacob Doe</span>
+                <span class="quotes__item-author">Joshua Earle</span>
               </div>
             </div>
+    
             <div class="quotes__item">
               <img src="./images/avatar.png" alt="" class="quotes__item-img">
               <div class="quotes__item-text">
                 <p class="quotes__item-quote">
                 "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quis, pariatur iusto commodi beatae suscipit voluptatum laboriosam unde vitae voluptates nam aliquid aut animi voluptatibus libero et blanditiis."
                 </p>
-                <span class="quotes__item-author">Joseph Doe</span>
+                <span class="quotes__item-author">Joshua Earle</span>
               </div>
             </div>
           </div>
         </div>
-        <div id="slider-btn--next-2" class="slider__btn next">
+  
+        <div id="btn-next" class="slider__btn next">
             <i class="fa fa-angle-right" aria-hidden="true"></i>
         </div>
       </div>
@@ -768,7 +770,6 @@
   </div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
   <script src="script/script.js"></script>
 </body>
 </html>

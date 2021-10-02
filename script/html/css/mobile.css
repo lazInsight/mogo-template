@@ -212,7 +212,6 @@
 
   .quotes__item-text {
     align-items: flex-end;
-    padding: 0 15px;
   }
 
   /* Logos Section */
@@ -374,26 +373,6 @@
   /* Works */
   .works__info {
     padding: 30px;
-  }
-
-  .quotes__item-text {
-    padding: 0 5px;
-  }
-
-  /* Slider Btns */
-  .slider__btn i {
-    align-items: flex-start;
-    padding: 0;
-  }
-
-  .slider__btn:last-child i,
-  .slider__btn:first-child i {
-    padding: 0;
-    margin: 0;
-  }
-
-  .quotes__item-text {
-    padding: none;
   }
 
 }

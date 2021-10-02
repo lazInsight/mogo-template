@@ -13,16 +13,10 @@ burgerContainer.addEventListener('click', () => {
 $(function() {
 
   var introHeight = $("#intro").innerHeight();
-  var scrollOffset = $(window).scrollTop();
+  var scroolOffset = 0;
 
-  checkScroll(scrollOffset);
-
-  $(window).on("scroll", (event) => {
+  $(window).on("scroll", () => {
     scrollOffset = $(this).scrollTop();
-    checkScroll(scrollOffset);
-  });
-
-  function checkScroll(scrollOffset) {
     var burgetButton = $('#burger-container');
     var headerNav = $("#header__nav");
     var headerCondition = $(header__nav).is(".active");
@@ -39,30 +33,9 @@ $(function() {
     } else {
       header.removeClass("fixed");
     }
-  }
+  });
 
-  console.log($('#slider-btn--prev'));
-
-});
-
-// Slider
-$("[data-slider=1]").slick({
-  prevArrow: $('#slider-btn--prev'),
-  nextArrow: $('#slider-btn--next'),
-  infinite: true,
-  speed: 700,
-  slidesToShow: 1,
-  adaptiveHeight: true
-});
-
-$("[data-slider=2]").slick({
-  prevArrow: $('#slider-btn--prev-2'),
-  nextArrow: $('#slider-btn--next-2'),
-  infinite: true,
-  speed: 700,
-  slidesToShow: 1,
-  adaptiveHeight: true
-});
+})
 
 // Navigation Pure JS, only for desktops
 

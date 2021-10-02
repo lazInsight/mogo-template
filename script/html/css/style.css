@@ -659,7 +659,6 @@ button.nav__link {
 .quotes__item-text {
   width: 100%;
   height: 100%;
-  padding-right: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -837,8 +836,6 @@ button.nav__link {
 
 .quotes__item {
   min-width: 100%;
-  display: flex !important;
-  min-height: 210px;
 }
 
 /* Section-7 */
